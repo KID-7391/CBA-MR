@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 validate.py ../data/AgePrediction/test --model rexnet_200 --img-size 128 --no-test-pool --batch-size 256 --channels-output 1 --num-classes 7 --class-map class_map.txt --loss-fn logit_cba --FPR 0.01 --checkpoint  ./output/age_pred/logit_cba_0.01/train/20210806-050612-rexnet_200-128/model_best.pth.tar

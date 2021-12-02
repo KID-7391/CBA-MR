@@ -1,0 +1,13 @@
+tensorflow_gpu==2.4.1
+numpy==1.20.1
+easydict==1.9
+torch==1.7.0+cu110
+tqdm==4.56.0
+opencv_python==4.5.1.48
+torchvision==0.8.1+cu110
+apex==0.9.10dev
+Pillow==8.2.0
+pytest==6.2.4
+PyYAML==5.4.1
+scikit_learn==0.24.2
+tensorflow==2.5.0

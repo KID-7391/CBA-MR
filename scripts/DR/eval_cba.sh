@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python3 validate.py ./data/diabetic-retinopathy-detection/test --model rexnet_200 --img-size 224 --no-test-pool --batch-size 128 --channels-output 1 --num-classes 5 --class-map class_map.txt --loss-fn logit_cba --FPR 0.01 --checkpoint ./output/DR/logit_cba/rexnet_200/model_best.pth.tar

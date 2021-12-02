@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=3 python3 validate.py ./data/NSFW/test --model rexnet_200 --img-size 224 --no-test-pool --batch-size 128 --channels-output 1 --num-classes 3 --class-map class_map.txt --loss-fn logit_cba --FPR 0.01 --checkpoint ./output/NSFW/logit_cba/rexnet_200/model_best.pth.tar
+#../code/output/NSFW/logit_dist_mem1024_apr19/train/20210419-045635-rexnet_200-224/checkpoint-31.pth.tar
