@@ -31,3 +31,15 @@ sh `scripts/[dataset]/eval_cba.sh`
 ```
 
 The results might slightly differ from the above due to the environment difference in the training process.
+
+
+## References
+If this code is helpful to you, please consider citing our paper:
+```
+@inproceedings{wen2021false,
+  title={When False Positive is Intolerant: End-to-End Optimization with Low FPR for Multipartite Ranking},
+  author={Wen, Peisong and Xu, Qianqian and Yang, Zhiyong and He, Yuan and Huang, Qingming},
+  booktitle={Thirty-Fifth Conference on Neural Information Processing Systems},
+  year={2021}
+}
+```
